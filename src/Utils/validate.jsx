@@ -17,10 +17,10 @@ export const validateEmail = (email) => {
   };
 
    // Function to validate the Name
-//    export const validateName = (name) => {
-//     const isNameValid = /^[a-zA-Z]+$/.test(name);
-//     if (!isNameValid) {
-//       return "Name is not valid";
-//     }
-//     return null;
-//   };
+  //  export const validateName = (name) => {
+  //   const isNameValid = /^[a-zA-Z]+$/.test(name);
+  //   if (!isNameValid) {
+  //     return "Name is not valid";
+  //   }
+  //   return null;
+  // };
