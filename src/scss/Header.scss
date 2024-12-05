@@ -1,7 +1,31 @@
 .header__parent{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    position: fixed;
+width: 100%;
     .header{
-        position: absolute;
         padding: 2rem 0rem;
-        z-index: 3;
+        position: relative;
+        z-index: 1;
+        button{
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: white;
+                background: rgba(0, 0, 0, 0.2);
+                padding: 0rem 2rem;
+                border-radius: 0.8rem;
+                cursor: pointer;
+                border: 2px solid white;
+        }
     }
+}
+
+
+// Video title
+.videottl{
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 90vh;
+}
+ .video-backr iframe{
+    min-height: 90vh;
 }

@@ -10,6 +10,13 @@
     - useRef Hook
     - Firebase Setup
     - Deploying our app to production
+    - Create Sign up User Account
+    - Implement Sign in user API
+    - Created Redux store with userSlice
+    - Implemented Signout
+    - bugFix:- If the user is not logged in then redirect to the "/" and if loginned once and save the password then direct redirect to the "/browser" 
+    - Movie API working fine (take from TMDB)
+    - Start making browser page
 
 
 
@@ -31,3 +38,5 @@
     - Netflix GPT
     - Movie Suggestions
 
+  <React.StrictMode>:- We see our result twice in the console due to this strict mode because it want to recheck our
+  things twice, which is fine but it will not same in the production level. When our code will push to the production level then it will only show once.
