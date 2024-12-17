@@ -28,7 +28,7 @@
     - TMDB img CDN found
     - Made Browse page with Tailwind
     - usePopularMovies and other movies categories with custom hooks
-    
+
 
 
 
