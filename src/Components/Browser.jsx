@@ -6,10 +6,16 @@ import { addNowPlayingMovies } from "../Utils/movieSlice";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
+import useNowPopularMovies from "../hooks/useNowPopularMovies";
+import useTopRated from "../hooks/useTopRated";
+import useUpcomingMovies from "../hooks/useUpcomingMovies";
 
 const Browser = () => {
   //Fetch data from TMDB API and update store
   useNowPlayingMovies();
+  useNowPopularMovies();
+  useTopRated();
+  useUpcomingMovies();
   return (
     <>
       {/* Main Container
@@ -22,7 +28,7 @@ const Browser = () => {
       <Header />
       <div className="browser-page">
         <MainContainer />
-        {/* <SecondaryContainer /> */}
+        <SecondaryContainer />
       </div>
       </div>
     </>

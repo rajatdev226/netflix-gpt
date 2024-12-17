@@ -23,9 +23,17 @@ width: 100%;
 
 // Video title
 .videottl{
-    background-color: rgba(0, 0, 0, 0.4);
-    min-height: 90vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 110vh;
 }
- .video-backr iframe{
-    min-height: 90vh;
+//  .video-backr iframe{
+//     min-height: 100vh;
+// }
+
+.movie-poster img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.movie-poster img {
+    transition: all 0.3s ease;
 }
