@@ -10,7 +10,4 @@ export const API_options = {
   },
 };
 
-// fetch(url, options)
-//   .then((res) => res.json())
-//   .then((json) => console.log(json))
-//   .catch((err) => console.error(err));
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";

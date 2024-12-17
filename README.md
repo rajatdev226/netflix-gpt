@@ -17,6 +17,12 @@
     - bugFix:- If the user is not logged in then redirect to the "/" and if loginned once and save the password then direct redirect to the "/browser" 
     - Movie API working fine (take from TMDB)
     - Start making browser page
+    - Created custom hook for nowPlaying Movies
+    - Planning for main container and Secondary container
+    - Fetch data for trailer video
+    - Embedded the youtube video & make it autoplay and mute
+    - We added tailwind css to make it usable
+    - Build Secondary component
 
 
 
